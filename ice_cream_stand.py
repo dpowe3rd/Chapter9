@@ -52,7 +52,7 @@ class IceCreamStand(Restaurant):
         print("\nHere at " + self.ice_cream_stand + ", we sell:")
         for ice_cream_flavors in self.flavors:
             print("\t" + ice_cream_flavors.title())
-        print("\nTake your pick!")
+        print("\nPlease take your pick!")
 
 
 ice_cream = IceCreamStand('Jahrae\'s Cones & More!')
