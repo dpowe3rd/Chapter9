@@ -49,10 +49,10 @@ class IceCreamStand(Restaurant):
         Prints a list of flavors that the shop sells
         :return:
         """
-        print("Here at " + self.ice_cream_stand + ", we sell:")
+        print("\nHere at " + self.ice_cream_stand + ", we sell:")
         for ice_cream_flavors in self.flavors:
             print("\t" + ice_cream_flavors.title())
-        print("Take your pick!")
+        print("\nTake your pick!")
 
 
 ice_cream = IceCreamStand('Jahrae\'s Cones & More!')
