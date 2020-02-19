@@ -1,6 +1,6 @@
 # Darrell Powe III
 # This is a practice exercise from the book "Python Crash Course"
-# Exercise 9-8
+# Exercise 9-9
 
 
 class Car:
