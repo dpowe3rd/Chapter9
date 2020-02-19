@@ -4,7 +4,12 @@
 
 from restaurant_module import Restaurant
 
-restaurant = Restaurant('Jahrae\'s Kitchen', 'Goat Head Soup')
 
-restaurant.describe_restaurant()
-restaurant.open_restaurant()
+def main():
+    restaurant = Restaurant('Jahrae\'s Kitchen', 'Goat Head Soup')
+
+    restaurant.describe_restaurant()
+    restaurant.open_restaurant()
+
+
+main()
